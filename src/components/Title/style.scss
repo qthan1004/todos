@@ -1,0 +1,16 @@
+.title {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  & .title__page-header {
+    & h3 {
+      text-transform: uppercase;
+      font-weight: 550;
+      color: #333;
+      margin: 0px;
+      & small {
+        color: rgb(94, 93, 93);
+      }
+    }
+  }
+}

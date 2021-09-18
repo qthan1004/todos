@@ -1,0 +1,12 @@
+.sort {
+  & .sort__current-sort {
+    background-color: #55a95a;
+    height: 38px;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: white;
+    padding: 3px 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+}

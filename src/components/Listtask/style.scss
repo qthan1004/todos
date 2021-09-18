@@ -1,0 +1,19 @@
+.list-task {
+  background: #fff;
+  & .list-task__inner {
+    border: 1px solid #deecd8;
+    border-radius: 4px;
+    max-width: 100%;
+
+    & .list-task__inner__heading {
+      padding-left: 10px;
+      margin-top: 8px;
+      color: #b5c5af;
+      background-color: #deecd8;
+      & h3 {
+        margin: 0;
+        padding: 4px;
+      }
+    }
+  }
+}

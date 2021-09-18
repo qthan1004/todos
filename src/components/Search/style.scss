@@ -1,0 +1,11 @@
+.search {
+  height: 38px;
+  & .search__btn {
+    & button {
+      max-height: 100%;
+    }
+  }
+  & input {
+    height: 100%;
+  }
+}
